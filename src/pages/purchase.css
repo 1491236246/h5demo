@@ -1,0 +1,74 @@
+
+.normal {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 2;
+  width:10rem;
+  height: 100vh;
+}
+.alemodel{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.7;
+}
+.aleContent{
+  position: absolute;
+  bottom:0;
+  left:0;
+  background: #ffffff;
+  height: 40vh;
+  width: 10rem;
+  font-size: .426667rem;
+  padding-top: 2vh;
+}
+.close{
+  width:0.8rem;
+  height: 0.8rem;
+  background: url(../assets/images/close_btn.png) no-repeat center 0;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+}
+.head,.time,.phone{
+  text-align: center;
+}
+.time{
+  color:#ff6a04;
+  margin-bottom:0.7rem;
+}
+.inpPhone{
+  height: 0.8rem;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.inpPhone>img{
+  width:0.8rem;
+  height: 0.8rem;
+  float: left;
+  margin-right: .053333rem;
+}
+.inpPhone>input{
+  height: 0.6rem;
+  line-height: 0.6rem;
+  float: left;
+}
+.immediate{
+  display: inline-block;
+  background: #ff6a04;
+  width: 3rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  border-radius: 1.266667rem;
+  color:#ffffff;
+  position: absolute;
+  left: 50%;
+  top: 22vh;
+  transform: translateX(-50%);
+}

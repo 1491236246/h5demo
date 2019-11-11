@@ -1,0 +1,24 @@
+
+.normal {
+  position: absolute;
+  right:0.2rem;
+  bottom:0.3rem;
+  font-size: .32rem;
+  text-align: center;
+  width: 3rem;
+}
+.timeContent{
+  display: flex;
+}
+.time{
+  flex: 3;
+  background: #ffffff;
+  color:#ff6a04;
+}
+.spot{
+  flex:1;
+  color:#ffffff;
+}
+.head{
+  color:#ffffff;
+}

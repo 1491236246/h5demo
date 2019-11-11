@@ -1,0 +1,51 @@
+
+.normal {
+  width:10rem;
+  height: 50vh;
+  background: url(../assets/images/bg1.jpg) no-repeat center 0;
+  background-size:100% 100%;
+  position: relative;
+}
+.explain{
+  width:10rem;
+  height: 10vh;
+  background: url(../assets/images/bg2.jpg) no-repeat center 0;
+  background-size:100% 100%;
+}
+.footer{
+  width:10rem;
+  height: 75vh;
+  background: url(../assets/images/bg3.jpg) no-repeat center 0;
+  background-size:100% 100%;
+}
+.fix{
+  position: fixed;
+  bottom:0;
+  left:0;
+  z-index: 1;
+  width:10rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  background: #ffffff;
+  font-size: .56rem;
+}
+.fix>span:first-child{
+  margin-left:0.3rem;
+  color:#ff6a04;
+  font-weight: bold;
+}
+.fix>span:first-child+span{
+  display: inline-block;
+  float: right;
+  text-align: center;
+  margin-right: 0.2rem;
+  margin-top: 0.25rem;
+  height: 1rem;
+  line-height: 1rem;
+  background: #ff6a04;
+  width: 3rem;
+  border-radius: 1.266667rem;
+  color:#ffffff;
+
+}
+
