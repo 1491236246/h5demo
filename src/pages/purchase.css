@@ -41,22 +41,23 @@
   margin-bottom:0.7rem;
 }
 .inpPhone{
-  height: 0.8rem;
+  height: 1rem;
   display: inline-block;
   position: relative;
   left: 50%;
+  top: .266667rem;
   transform: translateX(-50%);
 }
 .inpPhone>img{
   width:0.8rem;
   height: 0.8rem;
   float: left;
-  margin-right: .053333rem;
 }
 .inpPhone>input{
   height: 0.6rem;
   line-height: 0.6rem;
   float: left;
+  border:1px solid #000000
 }
 .immediate{
   display: inline-block;

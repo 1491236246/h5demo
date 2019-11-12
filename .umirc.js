@@ -19,6 +19,14 @@ export default {
           component: './confirm',
         },
         {
+          path: '/success',
+          component: './success',
+        },
+        {
+          path: '/addteacher',
+          component: './addteacher',
+        },
+        {
           path: '/',
           component: '../pages/index',
         },

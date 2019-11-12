@@ -1,7 +1,9 @@
 
 import styles from './purchase.css';
 import React, { useState , useEffect } from 'react';
-import { dataFormat } from '../plguins/getTime'
+import { dataFormat } from '../plguins/getTime';
+import router from 'umi/router';
+import { message } from 'antd';
 
 export default function ({changeStatus,time,setTime}) {
   let [timeVal, setVal] = useState(dataFormat(time));
@@ -27,9 +29,10 @@ export default function ({changeStatus,time,setTime}) {
 
   function handleTestVal(){
     if(!(/^1[3456789]\d{9}$/.test(phoneVal))){ 
-      alert("手机号码有误，请重填");  
+      message.error("手机号码有误，请重填");  
     }else{
-      alert("成功")
+      let status = Math.random()*100>50;//百分之50几率为true或false;
+      router.push({pathname:'/success',query:{status:status}});
     }
   }
 
@@ -45,7 +48,7 @@ export default function ({changeStatus,time,setTime}) {
           <div className={styles.phone}>-上课手机号-</div>
           <div className={styles.inpPhone}>
             <img src={require("../assets/images/phone.png")} alt="图片加载失败"/>
-            <input type="number" value={phoneVal} onChange={handleBindVal}/>
+            <input type="number" value={phoneVal} onChange={handleBindVal} placeholder="请输入手机号"/>
           </div>
           <div className={styles.immediate} onClick={handleTestVal}>立即购买</div>
         </div>

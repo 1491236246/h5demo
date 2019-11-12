@@ -1,0 +1,35 @@
+
+.normal {
+  width:10rem;
+  height: 100vh;
+  font-size: .426667rem;
+}
+.header{
+  background: #ff6a04;
+  height: 30vh;
+  padding-top: 2vh;
+}
+.header>p:first-child{
+  text-align: center;
+  color: #ffffff;
+}
+.header>p:first-child>span{
+  float: left;
+  margin-left: .266667rem;
+  font-size: .666667rem;
+}
+.qrCode{
+  background: #ffffff;
+  height: 70vh;
+}
+.clone{
+  width:5rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  background: #ff6a04;
+  color:#ffffff;
+  position: relative;
+  left:50%;
+  transform: translateX(-50%);
+}

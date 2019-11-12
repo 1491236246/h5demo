@@ -1,0 +1,54 @@
+
+.normal {
+  background: #ff6a04;
+  width:10rem;
+  height: 100vh;
+  font-size: .426667rem;
+  padding-top: 5vh;
+}
+.header{
+  width: 100%;
+  text-align: center;
+  color:#ffffff;
+}
+.content{
+  width:7rem;
+  height: 60vh;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #ffffff;
+  border-radius: .266667rem;
+  padding:.533333rem;
+}
+.succesModel{
+  border-bottom: 1px solid #000000;
+  padding-bottom: .266667rem;
+  position: relative;
+}
+.addTeacher{
+  width:2rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  border:1px solid #ff6a04;
+  background: #ffffff;
+  border-radius: .533333rem;
+  position: absolute;
+  top:.533333rem;
+  right: .266667rem;
+  color: #ff6a04;
+}
+.continue{
+  width:5rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  background: #ff6a04;
+  color: #ffffff;
+  position: relative;
+  left:50%;
+  margin-left: -2.5rem;
+  border-radius: .533333rem;
+}
